@@ -487,22 +487,12 @@ function sortbybox(){
     }
     else if(c === 't'){
         for(let i = 0; i < playerdeck.length; i++){
-            if(playerdeck[i] === "w4"){
+            if(playerdeck[i][1] === 'r' || playerdeck[i][1] === 's' || playerdeck[i][1] === '+' ){
                 newdeck.push(playerdeck[i]);
             }
         }
         for(let i = 0; i < playerdeck.length; i++){
-            if(playerdeck[i] === "wc"){
-                newdeck.push(playerdeck[i]);
-            }
-        }
-        for(let i = 0; i < playerdeck.length; i++){
-            if(playerdeck[i][1] === 'r'){
-                newdeck.push(playerdeck[i]);
-            }
-        }
-        for(let i = 0; i < playerdeck.length; i++){
-            if(playerdeck[i][1] === 's'){
+            if(playerdeck[i] === "w4" || playerdeck[i] === "wc"){
                 newdeck.push(playerdeck[i]);
             }
         }
