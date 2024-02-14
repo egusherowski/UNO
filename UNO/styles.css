@@ -1,0 +1,93 @@
+body{
+    background-color: #33ECFF;
+}
+
+    /* Deck */
+
+#Deck{
+    width: 250px;
+    height: 166px;
+    visibility: hidden;
+}
+
+    /*  Arrows */
+
+.arrow{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+
+}
+.turnarrow{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.leftarrow{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+
+    /* Cards */
+
+.cards{
+    width: 86px;
+    height: 136px;
+    visibility: hidden;
+}
+.compcards{
+    width: 86px;
+    height: 136px;
+    visibility: hidden;
+}
+
+    /* Squares */
+
+.square
+{
+    width:40px;
+    height: 40px;
+    visibility: hidden;
+}
+.minisquare{
+    width:20px;
+    height: 20px;
+    display: none;
+}
+
+    /* Pre-Game Display */
+
+#banner{
+    color: black;
+}
+#startgame{
+     background-color: black;
+     border: black;
+     color: white;
+     width: 300px;
+     height: 50px;
+ }
+
+    /* Card Display Extras */
+
+.scroll{
+    width: 70px;
+    height:70px;
+    visibility: hidden;
+}
+.count{
+     font-size: 27pt;
+     display: inline;
+     visibility: hidden;
+ }
+    /* Formatting */
+
+.combo{
+    line-height: 0;
+    display: inline-block;
+
+}
+.space{
+    display: inline;
+}

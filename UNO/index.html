@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UNO</title>
+
+    <link rel = stylesheet href = "styles.css">
+
+    <link rel = stylesheet href = "Materialize/css/materialize.min.css">
+</head>
+
+<body>
+
+<!-- Main Container-->
+<div class = "container center-align">
+    <h2 id = "banner">UNO</h2>
+    <br><br>
+    <pre class = "count"> (7)</pre>
+    <!-- Computer Card Display -->
+    <img src = "Images/back.png" class = "compcards" id = "cs1"><pre class = space> </pre><img src = "Images/back.png" class = "compcards" id = "cs2"><pre class = space> </pre><img src = "Images/back.png" class = "compcards" id = "cs3"><pre class = space> </pre><img src = "Images/back.png" class = "compcards" id = "cs4"><pre class = space> </pre><img src = "Images/back.png" class = "compcards" id = "cs5"><pre class = space> </pre><img src = "Images/back.png" class = "compcards" id = "cs6"><pre class = space> </pre><img src = "Images/back.png" class = "compcards" id = "cs7">
+    <!-- Computer Card Counter -->
+    <pre class = "count" id = "counter"> (7)</pre>
+
+    <br><br>
+    <!-- Start Game Button -->
+    <button id = "startgame">Start Game</button>
+
+    <br><br>
+    <!-- Middle Section -->
+    <!-- Color Squares -  Turn Arrows - Last Played Card - Deck - Deck Arrow -->
+    <img src="Images/leftarrow.png" class = "leftarrow">
+
+    <div class = "combo"><img src ="Images/red.png" class = "square" id ="r"><img src="Images/yellow.png" class = "square" id = "y"><br><img src="Images/blue.png" class = "square" id = "b"><img src="Images/green.png" class = "square" id = "g"> </div>
+
+    <div class = "combo"><img src = "Images/arrow.png" class = "turnarrow" id = "up"><br><img src = "Images/downarrow.png" class = "turnarrow" id = "down"></div>
+
+    <img src = "Images/r1.png" class = "compcards" id = "lastlay">
+
+    <img src = "Images/Deck.png" id = Deck>
+
+    <img src="Images/leftarrow.png" class = "leftarrow" id = "left">
+
+    <br><br><br><br>
+
+    <!-- Toggle Left Button -->
+    <img src = "Images/scrollleft.png" class = "scroll" id = "-1">
+    <!-- Player Card Display -->
+    <img src = "Images/r1.png" class = "cards" id = "ps1"><pre class = space> </pre><img src = "Images/r1.png" class = "cards" id = "ps2"><pre class = space> </pre><img src = "Images/r1.png" class = "cards" id = "ps3"><pre class = space> </pre><img src = "Images/r1.png" class = "cards" id = "ps4"><pre class = space> </pre><img src = "Images/r1.png" class = "cards" id = "ps5"><pre class = space> </pre><img src = "Images/r1.png" class = "cards" id = "ps6"><pre class = space> </pre><img src = "Images/r1.png" class = "cards" id = "ps7">
+    <!-- Toggle Right Button -->
+    <img src = "Images/scrollright.png" class = "scroll" id = "1">
+
+    <br>
+
+</div>
+
+<br id = "break">
+
+<div class = "container left-align">
+
+    <pre class = space>                                </pre>
+    <!-- Sorting Buttons -->
+    <img src ="Images/playable.png" class = "minisquare" id ="playable"><pre class = space> </pre><img src ="Images/red.png" class = "minisquare" id ="mr"><pre class = space> </pre><img src="Images/yellow.png" class = "minisquare" id = "my"><pre class = space> </pre><img src="Images/blue.png" class = "minisquare" id = "mb"><pre class = space> </pre><img src="Images/green.png" class = "minisquare" id = "mg"><pre class = space> </pre><img src="Images/reverse.png" class = "minisquare" id = "mt">
+
+</div>
+
+<div class = "container center-align">
+    <!-- Pointer Arrows -->
+    <img src ="Images/arrow.png" class = "arrow" id = "arrow1"><img src ="Images/arrow.png" class = "arrow" id = "arrow2"><img src ="Images/arrow.png" class = "arrow" id = "arrow3"><img src ="Images/arrow.png" class = "arrow" id = "arrow4"><img src ="Images/arrow.png" class = "arrow" id = "arrow5"><img src ="Images/arrow.png" class = "arrow" id = "arrow6"><img src ="Images/arrow.png" class = "arrow" id = "arrow7">
+</div>
+
+<script src = "script.js"></script>
+</body>
+</html>
